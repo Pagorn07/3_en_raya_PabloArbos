@@ -14,3 +14,11 @@ Version 0.1.0:
 Version 0.1.1:
 - Arreglado el problema que no dejaba validar correctamente las páginas anteriores porque
 faltaba un tag de meta que defina la codificación de las páginas.
+
+Version 0.1.2:
+- Agregado el contenido que pide la práctica de HTML a las siguientes páginas:
+    - index.html
+    - help.html
+    - config.html
+    - contact.html
+    - map.html
