@@ -1,0 +1,16 @@
+Este documento contiene una lista de las versiones del tres en raya con sus cambios.
+
+Version 0.1.0:
+- Creados los archivos:
+    - index.html
+    - help.html
+    - config.html
+    - contact.html
+    - map.html
+    - exta.html
+
+- Los archivos cuentan con la estructura mínima de una página en html.
+
+Version 0.1.1:
+- Arreglado el problema que no dejaba validar correctamente las páginas anteriores porque
+faltaba un tag de meta que defina la codificación de las páginas.
