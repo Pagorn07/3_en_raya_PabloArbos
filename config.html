@@ -3,6 +3,9 @@
     <head>
         <title>3 EN RAYA</title>
         <meta charset="UTF-8">
+        <meta name="author" content="Pablo Arbos Jimenez">
+        <meta name="description" content="Juego 3 en raya">
+        <meta name="keywords" content="raya,juego,3,en,tic,tac,toe">
     </head>
     <body>
         <header>
@@ -18,22 +21,22 @@
         </nav>
         <main>
             <h2>Opciones</h2>
-            <form>
-                Jugadores: <br>
-                <input type="radio" name="jugadores" value="HvsCPU">Humano VS CPU <br>
-                <input type="radio" name="jugadores" value="HvsH">Humano VS Humano <br><br>
-                Dificultad: <br>
-                <input type="radio" name="dificultad" value="facil">Fácil<br>
-                <input type="radio" name="dificultad" value="normal">Normal<br>
-                <input type="radio" name="dificultad" value="dificil">Difícil<br><br>
-                Tiempo por turno: <br>
-                <input type="radio" name="tiempo" value="1sec">Un segundo <br>
-                <input type="radio" name="tiempo" value="3sec">Tres segundos <br>
-                <input type="radio" name="tiempo" value="ilimitado">Ilimitado <br> <br>
-                Idioma: <br>
-                <input type="radio" name="idioma" value="castellano">Castellano <br>
-                <input type="radio" name="idioma" value="catalan">Catalán <br>
-                <input type="radio" name="idioma" value="ingles">Inglés <br><br>
+            <form action="cong.php" method="post">
+                Jugadores:
+                <input type="radio" name="jugadores" value="HvsCPU">Humano VS CPU
+                <input type="radio" name="jugadores" value="HvsH">Humano VS Humano
+                Dificultad:
+                <input type="radio" name="dificultad" value="facil">Fácil
+                <input type="radio" name="dificultad" value="normal">Normal
+                <input type="radio" name="dificultad" value="dificil">Difícil
+                Tiempo por turno: 
+                <input type="radio" name="tiempo" value="1sec">Un segundo 
+                <input type="radio" name="tiempo" value="3sec">Tres segundos 
+                <input type="radio" name="tiempo" value="ilimitado">Ilimitado
+                Idioma:
+                <input type="radio" name="idioma" value="castellano">Castellano
+                <input type="radio" name="idioma" value="catalan">Catalán
+                <input type="radio" name="idioma" value="ingles">Inglés
                 <input type="reset" value="Reset">
                 <input type="submit" value="Enviar">
             </form>
