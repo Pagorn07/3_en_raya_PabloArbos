@@ -3,6 +3,9 @@
     <head>
         <title>3 EN RAYA</title>
         <meta charset="UTF-8">
+        <meta name="author" content="Pablo Arbos Jimenez">
+        <meta name="description" content="Juego 3 en raya">
+        <meta name="keywords" content="raya,juego,3,en,tic,tac,toe">
     </head>
     <body>
         <header>
@@ -20,11 +23,11 @@
             <section>
                 <h2>Formulario de contacto</h2>
                 <p>Si tienes algún problema con el juego no dudes en contactar conmigo.</p>
-                <form>
-                    Nombre: <input type="text" name="usr_nombre"> <br>
-                    E-mail: <input type="email" name="usr_email"> <br> <br>
-                    Comenta: <br>
-                    <textarea rows="15" cols="75"></textarea> <br> <br>
+                <form action="contacto.php" method="post">
+                    Nombre: <input type="text" name="usr_nombre">
+                    E-mail: <input type="email" name="usr_email">
+                    Comenta:
+                    <textarea rows="15" cols="75"></textarea>
                     <input type="submit" value="Enviar">
                 </form>
             </section>
